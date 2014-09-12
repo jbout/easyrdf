@@ -159,7 +159,7 @@ class EasyRdf_Serialiser_RdfXml extends EasyRdf_Serialiser
                 if ($short) {
                     $this->addPrefix($short);
                     $objects = $res->all("<$property>");
-                    if ($short == 'rdf:type' && $type != 'rdf:Description') {
+                    if ($short == 'rdf:type') {
                         array_shift($objects);
                     }
                     foreach ($objects as $object) {

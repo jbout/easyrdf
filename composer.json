@@ -1,6 +1,6 @@
 {
-    "name": "jbout/easyrdf",
-    "description": "Fork of EasyRdf, a PHP library designed to make it easy to consume and produce RDF.",
+    "name": "easyrdf/easyrdf",
+    "description": "EasyRdf is a PHP library designed to make it easy to consume and produce RDF.",
     "version": "0.8.0",
     "type": "library",
     "keywords": ["RDF", "Semantic Web", "Linked Data", "Turtle", "RDFa", "SPARQL"],
@@ -12,10 +12,6 @@
             "email": "njh@aelius.com",
             "homepage": "http://www.aelius.com/njh/",
             "role": "Developer"
-        },
-        {
-            "name": "Joel Bout",
-            "email": "joel@taotesting.com"
         }
     ],
     "support": {
